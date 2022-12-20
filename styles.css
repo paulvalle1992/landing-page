@@ -1,0 +1,169 @@
+
+
+.header {
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937; 
+    align-items: center; 
+     
+}
+
+.headerlogo {
+  font-size: 24px;
+  color: #f9faf8;  
+  font-weight: 900;
+  margin-left: 100px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    padding: 0;
+    margin-right: 100px;    
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.footer {
+    height: 72px;
+    background-color: #1f2937;
+    color:#f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+
+}
+
+
+.bodycontainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 24px;
+}
+
+.body1 {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+}
+
+.body1txtleft {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.body1maintxt {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.body1subtxt {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.body1imgright {
+    display: flex;
+}
+
+
+
+.body2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex: 1;
+    
+}
+
+.body2txt {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    margin: 24px;
+}
+
+.body2img {
+    display: flex;
+    gap: 24px;
+}
+
+.card {
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    
+}
+
+.body2txt2 {
+    display: flex;
+    gap: 24px;
+}
+
+.body3 {
+    display: flex;
+    height: 72px;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    flex: 1;
+    
+}
+
+.body3txt1 {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    max-width: 500px;
+    max-height: 300px;
+    padding-top: 100px;
+    
+}
+
+.body3txt2 {
+    display: flex;
+    font-size: 18px;
+    color: black;
+    font-weight: 900;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 400px;
+    padding-bottom: 100px;
+    
+
+}
+button {
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    background: #eee;
+    padding: 8px 16px;
+    display: flex;
+    align-self: flex-start;
+}
