@@ -172,10 +172,31 @@ body {
 }
 button {
     color: #f9faf8;
-    border: white;
+    border: 2px solid white;
     border-radius: 8px;
+    border-color: #e5e7eb;
     background: #3882f6;
     padding: 8px 16px;
     display: flex;
     align-self: flex-start;
+}
+
+.calltoaction {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882f6;
+    margin: 200px;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+.body4subtxt1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.body4subtxt2 {
+    color: #e5e7eb;
+    font-style: italic;
 }
